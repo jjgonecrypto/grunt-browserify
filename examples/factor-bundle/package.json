@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "factor-bundle": "^2.3.3",
+    "factor-bundle": "https://github.com/justinjmoses/factor-bundle/tarball/68b3aa72e65e59d96695c73748c5255ef3d3f242",
     "grunt": "~0.4.1"
   }
 }
