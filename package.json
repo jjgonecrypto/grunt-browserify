@@ -1,7 +1,7 @@
 {
   "name": "grunt-browserify",
   "description": "Grunt task for node-browserify",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "homepage": "https://github.com/jmreidy/grunt-browserify",
   "contributors": [
     {
@@ -35,22 +35,23 @@
     "node": ">= 0.8.x"
   },
   "scripts": {
-    "test": "grunt && mocha -R spec --timeout 5000"
+    "test": "mocha -R spec --timeout 5000"
   },
   "dependencies": {
-    "async": "^0.9.0",
-    "browserify": "^11.0.1",
-    "glob": "^5.0.5",
-    "lodash": "^3.8.0",
+    "async": "^1.5.0",
+    "browserify": "^13.0.0",
+    "glob": "^6.0.3",
+    "lodash": "^3.10.1",
     "resolve": "^1.1.6",
-    "watchify": "^3.3.1"
+    "watchify": "^3.6.1"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-jshint": "^0.11.2",
-    "mocha": "^2.2.4",
-    "sinon": "^1.14.1"
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-jshint": "^0.11.3",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2"
   },
   "keywords": [
     "gruntplugin",
